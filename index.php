@@ -59,23 +59,23 @@
     <h1>Sign Up</h1>
     <div>
     <label for="firstname">Firstname</label><br>
-    <input type="text" name="firstname" id="firstname" >
+    <input type="text" name="firstname" id="firstname"  required>
     </div>
     <div>
     <label for="lastname">Lastname</label><br>
-    <input type="text" name="lastname" id="lastname">
+    <input type="text" name="lastname" id="lastname" required>
     </div>
     <div>
     <label for="email">Email</label><br>
-    <input type="email" name="email" id="email">
+    <input type="email" name="email" id="email"  required>
     </div>
     <div>
     <label for="password">Password</label><br>
-    <input type="password" name="password" id="password">
+    <input type="password" name="password" id="password"  required>
     </div>
     <div>
     <label for="phonenumber">Phone Number</label><br>
-    <input type="number" name="phonenumber" id="phonenumber">
+    <input type="number" name="phonenumber" id="phonenumber" required>
     </div>
     <div>
     <label for="gender">Gender</label><br>
@@ -84,11 +84,11 @@
     </div>
     <div>
     <label for="dob">Date of Birth</label><br>
-    <input type="date" name="dob" id="dob">
+    <input type="date" name="dob" id="dob"  required>
     </div>
     <div>
     <label for="nationality">Nationality</label><br>
-    <select name="nationality" id="nationality">
+    <select name="nationality" id="nationality"  required>
     <option value="">Select</option>
     <option value="Algeria">Algeria</option>
     <option value="Cameroon">Cameroon</option>
